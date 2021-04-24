@@ -79,9 +79,3 @@ class Trie:
         pref_list = []
         self.__getwords(node, "", pref_list)
         return pref_list
-
-
-t = Trie()
-
-t.add("she")
-print(t.autocomplete("sh"))
