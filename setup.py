@@ -2,10 +2,9 @@ from setuptools import setup, find_packages
 
 
 def reqs():
-    with open('req.txt') as content:
+    with open('requirements.txt') as content:
         req = content.read()
         requirement = req.split('\n')
-
     return requirement
 
 
