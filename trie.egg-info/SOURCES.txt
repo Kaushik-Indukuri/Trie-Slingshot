@@ -1,0 +1,9 @@
+setup.py
+trie/__init__.py
+trie/cli.py
+trie.egg-info/PKG-INFO
+trie.egg-info/SOURCES.txt
+trie.egg-info/dependency_links.txt
+trie.egg-info/entry_points.txt
+trie.egg-info/requires.txt
+trie.egg-info/top_level.txt
