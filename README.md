@@ -66,7 +66,7 @@ trie display
 
 
 ## Debugging
-Manually debug by testing locally 
+Test locally to debug
 ```
 gunicorn --workers=3 --bind 0.0.0.0:8080 server:app -D
 # To start server
