@@ -1,0 +1,18 @@
+# Server Documentation
+## How the server is hosted
+The server is hosted to AWS using the EC2 service. It's hosted on a t2.large instance of an ubuntu server. 
+I connected to the instance by using SSH with the public IP address and the private key pair. 
+Once connected, I downloaded all my required packages in Ubuntu. 
+I created a new project directory and used SCP (secure copy) to transfer the server.py and trie.py files to the directory.
+Finally I ran the server using gunicorn and allowed 3 workers so 3 clients can concurrently use the CLI. 
+The order of requested operations across the clients was handled by making the workers synchronous. 
+This forces the workers to handle only one request at a time, so they will be processed one after another. 
+Then, I just changed the CLI from the local IP to the IP of the instance. 
+
+
+## How the CLI interacts with server
+The CLI interacts with the server using HTTP GET and POST requests with the public IP of the instance mentioned above. Based on the given commands, 
+the 
+
+
+## Restful APIs 
