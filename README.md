@@ -1,6 +1,8 @@
 # Slingshot Trie Project 
 Contributors: Kaushik Indukuri
 
+
+
 ## Installing CLI
 Clone this repo and navigate to the project directory
 ```
@@ -9,6 +11,7 @@ pip install --editable .
 ```
 You are done installing.
 Get started by typing trie 
+
 
 ## Interacting with CLI
 Format for commands:
@@ -20,6 +23,7 @@ trie -w hi search
 trie -w hi autocomplete 
 trie display
 ```
+
 
 ## Example Test Suite
 ### Blank
@@ -60,6 +64,8 @@ trie display
 # Expect "Trie is empty"
 ```
 
+
 ## TODO
 Make server more scalable since only 3 workers are running currrently 
+
 Improve efficiency of trie 
