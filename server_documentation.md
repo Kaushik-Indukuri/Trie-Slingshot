@@ -21,4 +21,5 @@ on the command line.
 - search: searches whether a word is in the trie or not
 - autocomplete: returns a list of autocomplete suggestions based on an input prefix
 - display: displays all words in the trie
+
 All the logic can be found at `./trie/services/server.py`
