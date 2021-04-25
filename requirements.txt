@@ -1,5 +1,5 @@
 click==7.1.2
 Flask
 requests==2.25.1
-gunicorn3
+gunicorn
 nginx
