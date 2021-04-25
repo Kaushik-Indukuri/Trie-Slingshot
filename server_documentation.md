@@ -16,3 +16,9 @@ on the command line.
 
 
 ## Restful APIs 
+- add: adds a word to the trie
+- delete: deletes word from the trie
+- search: searches whether a word is in the trie or not
+- autocomplete: returns a list of autocomplete suggestions based on an input prefix
+- display: displays all words in the trie
+All the logic can be found at `./trie/services/server.py`
