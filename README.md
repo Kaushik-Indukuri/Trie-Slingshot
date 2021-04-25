@@ -22,7 +22,7 @@ Installing the CLI:
 pip install --editable . 
 ```
 You are done installing.
-Get started by typing trie 
+Get started by typing trie/cli.py
 
 
 ## Interacting with CLI
