@@ -10,9 +10,9 @@ This forces the workers to handle only one request at a time, so they will be pr
 Then, I just changed the CLI from the local IP to the IP of the instance. 
 
 
-## How the CLI interacts with server
-The CLI interacts with the server using HTTP GET and POST requests with the public IP of the instance mentioned above. Based on the given commands, 
-the 
+## CLI interaction with the server
+The CLI interacts with the server using HTTP GET and POST requests with the public IP of the instance mentioned above. For the add and delete commands, POST requests are used, and for the search, autocomplete, and display commands, GET requests are used. The server returns a JSON string which is then read and displayed 
+on the command line.  
 
 
 ## Restful APIs 
