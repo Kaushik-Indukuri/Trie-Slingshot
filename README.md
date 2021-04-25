@@ -65,6 +65,17 @@ trie display
 ```
 
 
+## Debugging
+Manually debug by testing locally 
+```
+gunicorn --workers=3 --bind 0.0.0.0:8080 server:app -D
+# To start server
+trie -s http://0.0.0.0:8080 -w good add
+# -s allows user to manually change ip
+# Insead of using the global server ip, you can overide to the local server ip you ran above with gunicorn
+```
+
+
 ## TODO
 Make server more scalable since only 3 workers can currrently run at the same time
 
