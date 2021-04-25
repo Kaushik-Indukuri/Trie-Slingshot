@@ -37,7 +37,7 @@ def delete():
         t.delete(word)
         return json.dumps({"output": word + " has been deleted"})
     elif not in_trie:
-        return json.dumps({"output": word + " is not in trie"})
+        return json.dumps({"output": word + " is not in the trie"})
     else:
         raise ValueError("Error, try again")
 
@@ -48,7 +48,7 @@ def search():
     if in_trie:
         return json.dumps({"output": word + " was found in the trie"})
     elif not in_trie:
-        return json.dumps({"output": word + " was not found in the trie.]"})
+        return json.dumps({"output": word + " was not found in the trie"})
     else:
         raise ValueError("Error, try again")
 
