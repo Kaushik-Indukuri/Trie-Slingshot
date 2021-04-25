@@ -77,6 +77,5 @@ trie -s http://0.0.0.0:8080 -w good add
 
 
 ## TODO
-Make server more scalable since only 3 workers can currrently run at the same time
-
-Improve efficiency of trie 
+- Make server more scalable since only 3 workers can currrently run at the same time
+- Improve efficiency of trie 
