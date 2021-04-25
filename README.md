@@ -5,8 +5,19 @@ Contributors: Kaushik Indukuri
 
 ## Installing CLI
 Clone this repo and navigate to the project directory
+On Windows:
 ```
-# At project directory 
+# Activating virtual environment
+venv\Scripts\activate.bat
+```
+On Mac and Linux:
+```
+# Activating virtual environment
+source venv/bin/activate
+```
+Installing the CLI:
+```
+# At project directory
 pip install --editable . 
 ```
 You are done installing.
