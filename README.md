@@ -66,6 +66,6 @@ trie display
 
 
 ## TODO
-Make server more scalable since only 3 workers are running currrently 
+Make server more scalable since only 3 workers can currrently run at the same time
 
 Improve efficiency of trie 
