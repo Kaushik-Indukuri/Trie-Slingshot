@@ -5,6 +5,7 @@ Contributors: Kaushik Indukuri
 
 ## Installing CLI
 Clone this repo and navigate to the project directory
+
 On Windows:
 ```
 # Activating virtual environment
