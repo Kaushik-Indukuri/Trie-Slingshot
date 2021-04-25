@@ -1,5 +1,5 @@
 # Slingshot Trie Project 
-Contributors - Kaushik Indukuri
+Contributors: Kaushik Indukuri
 
 ## Installing CLI
 Clone this repo and navigate to the project directory
@@ -7,8 +7,9 @@ Clone this repo and navigate to the project directory
 # At project directory 
 pip install --editable . 
 ```
-You are done installing
+You are done installing.
 Get started by typing trie 
+
 ## Interacting with CLI
 Format for commands:
 trie -w TEXT COMMAND
@@ -19,34 +20,35 @@ trie -w hi search
 trie -w hi autocomplete 
 trie display
 ```
+
 ## Example Test Suite
-# Blank
+### Blank
 ```
 trie -w add
 # Expect a missing command error
 ```
-# Add
+### Add
 ```
 trie -w hello add
 # Expect "hello has been added"
 trie -w hello add
 # Expect "hello is already in the trie"
 ```
-# Search
+### Search
 ```
 trie -w hello search
 # Expect "hello was found in the trie"
 trie -w nice add
 # Expect "nice was not found in the trie"
 ```
-# Autocomplete
+### Autocomplete
 ```
 trie -w hel autocomplete
 # Expect "Autocomplete suggestions for hel: ['hello']"
 trie -w sho autocomplete
 # Expect "No autocomplete suggestions"
 ```
-# Delete and Display
+### Delete and Display
 ```
 trie display
 # Expect "Trie: ['hello']"
@@ -57,6 +59,7 @@ trie -w bro delete
 trie display
 # Expect "Trie is empty"
 ```
+
 ## TODO
 Make server more scalable since only 3 workers are running currrently 
 Improve efficiency of trie 
