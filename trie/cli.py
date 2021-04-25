@@ -10,7 +10,7 @@ class Context:
 
 @click.group()
 @click.option('-w', '--word', type=str, help='Input word')
-@click.option('-s', '--server', envvar='TRIE_SERVER', default='http://0.0.0.0:8080', help='Server')
+@click.option('-s', '--server', envvar='TRIE_SERVER', default='http://54.177.45.15:8080', help='Server')
 @click.pass_context
 def cli(ctx, word, server):
     """Welcome to My Trie System"""
